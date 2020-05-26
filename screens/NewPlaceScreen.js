@@ -25,7 +25,7 @@ const NewPlaceScreen = props => {
                 <Text style={styles.label}>Title</Text>
                 <TextInput 
                     style={styles.textInput} 
-                    onChange={titleChangeHandler} 
+                    onChangeText={titleChangeHandler} 
                     value={titleValue} 
                 />
                 <Button title='Save Place' color={Colors.primary} onPress={savePlaceHandler} />
